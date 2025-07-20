@@ -34,8 +34,8 @@
     "@testing-library/user-event": "^7.1.2",
     "@themesberg/react-bootstrap": "^1.4.1",
     "bootstrap": "5.0.0-beta1",
-    "moment-timezone": "^0.5.31",
     "chartist-plugin-tooltips-updated": "^0.1.4",
+    "moment-timezone": "^0.5.31",
     "react": "^16.13.1",
     "react-chartist": "^0.14.4",
     "react-copy-to-clipboard": "^5.0.3",
@@ -50,7 +50,7 @@
     "react-transition-group": "^4.4.1",
     "sass": "^1.50.0",
     "simplebar-react": "^2.3.0"
-},
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
@@ -74,5 +74,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass-loader": "^10.1.1"
   }
 }
